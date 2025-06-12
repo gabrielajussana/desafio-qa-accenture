@@ -12,4 +12,4 @@ Funcionalidade: Gerenciar registros na tabela Web Tables do DemoQA
   Cenário: Criar e deletar múltiplos registros dinamicamente
     Dado que acesso a página de Web Tables
     Quando crio 12 registros dinamicamente
-    Então todos os 12 registros devem ser deletados
+    Então deleto todos registros criados
