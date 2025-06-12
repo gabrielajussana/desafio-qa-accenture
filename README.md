@@ -1,4 +1,4 @@
-# ✅ Desafio de QA Automation – Accenture
+# ✅ Testes E2E com Cypress e Cucumber (BDD) – DemoQA BookStore
 
 Este projeto automatiza um fluxo completo de testes de API utilizando **Cypress** com **Cucumber (BDD)**. O fluxo é realizado na aplicação [DemoQA BookStore](https://demoqa.com/).
 
