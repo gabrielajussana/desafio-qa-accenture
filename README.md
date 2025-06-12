@@ -1,15 +1,25 @@
-# Desafio de QA Automation – Accenture
+# ✅ Desafio de QA Automation – Accenture
 
 Este projeto automatiza um fluxo completo de testes de API utilizando **Cypress** com **Cucumber (BDD)**. O fluxo é realizado na aplicação [DemoQA BookStore](https://demoqa.com/).
 
 ## Funcionalidades Testadas
 
+### API
 - Criação de um novo usuário
 - Geração de token de autenticação
 - Validação de autorização do usuário
 - Listagem de livros disponíveis
 - Aluguel de dois livros
 - Validação dos dados do usuário e livros alugados
+
+### Frontend
+- Submeter formulário com dados válidos
+- Abrir nova janela e validar conteúdo
+- Criar, editar e deletar um registro
+- Criar e deletar múltiplos registros dinamicamente
+- Controlar e validar a barra de progresso
+- Ordenar os itens da lista em ordem crescente
+
 
 ## Tecnologias e Ferramentas
 
@@ -21,19 +31,17 @@ Este projeto automatiza um fluxo completo de testes de API utilizando **Cypress*
 
 ## Como Executar o Projeto
 
-1. **Crie um fork do repósitório**
-
-2. **Clone o repositório**
+1. **Clone o repositório**
 
 ```bash
 git clone https://github.com/seu-usuario/desafio-qa-accenture.git
 cd desafio-qa-accenture
 ``` 
-3. **Instale as depedências**
+2. **Instale as depedências**
  ``` bash
  npm instal
  ```
-4. **Execute os testes no modo interativo**
+3. **Execute os testes no modo interativo**
 ``` bash
 npx cypress open
 ```
@@ -41,3 +49,8 @@ npx cypress open
 ```bash
 npx cypress run
 ```
+## 📊 Relatório de Execução dos Testes
+
+<p align="center">
+  <img src="image.png" width="400">
+</p>
